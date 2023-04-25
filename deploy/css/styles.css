@@ -328,7 +328,7 @@ template {
 
 .container {
   display: grid;
-  grid-template-columns: 16fr auto 16fr;
+  grid-template-columns: 16px auto 16px;
   grid-template-areas: ". content .";
 }
 
