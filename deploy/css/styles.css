@@ -323,7 +323,7 @@ template {
     Base
 ============= */
 .large-images {
-  width: 100%;
+  width: auto;
 }
 
 .container {
