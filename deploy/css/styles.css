@@ -380,6 +380,14 @@ textarea {
   }
 }
 
+@media (min-width: 992px) {
+  .large-bottom .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content";
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -391,11 +399,27 @@ textarea {
   }
 }
 
+@media (min-width: 992px) {
+  .large-middle-text .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content";
+  }
+}
+
 /* =============
     Typography
 ============= */
 @media (min-width: 768px) {
   .whatsnew .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content";
+  }
+}
+
+@media (min-width: 992px) {
+  .large-whatsnew .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "content";

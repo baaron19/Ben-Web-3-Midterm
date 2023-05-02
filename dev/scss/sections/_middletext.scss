@@ -16,3 +16,18 @@
 
     }
 }
+
+.large-middle-text{
+
+    .container{
+
+        @include lg{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "content"
+            ;
+        }
+
+    }
+}
