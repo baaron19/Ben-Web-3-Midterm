@@ -1,0 +1,18 @@
+/* =============
+    Typography
+============= */
+
+.middletext{
+
+    .container{
+
+        @include md{
+            display:grid;
+            grid-template-columns: auto auto;
+            grid-template-areas: 
+            "content"
+            ;
+        }
+
+    }
+}
