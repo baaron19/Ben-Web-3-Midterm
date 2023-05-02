@@ -378,8 +378,7 @@ textarea {
 @media (min-width: 768px) {
   .middletext .container {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-areas: "content";
+    grid-template-columns: 1fr 1fr;
   }
 }
 
