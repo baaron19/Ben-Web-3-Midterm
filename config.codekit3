@@ -67,19 +67,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/Ferrari Building.jpeg" : {
-      "ft" : 16384,
-      "iS" : 82942,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Ferrari Building.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/Ferrari Building.jpg" : {
       "ft" : 16384,
       "iS" : 17581,
@@ -89,41 +76,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/ferrari gran turismo front.webp" : {
-      "ft" : 8388608,
-      "iS" : 263254,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/ferrari gran turismo front.webp",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/deploy\/img\/ferrari hero Image.webp" : {
-      "ft" : 8388608,
-      "iS" : 34200,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/ferrari hero Image.webp",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/deploy\/img\/Ferrari logo on car.jpeg" : {
-      "ft" : 16384,
-      "iS" : 7139,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Ferrari logo on car.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -141,11 +93,59 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ferrari logo.png" : {
+    "\/deploy\/img\/Ferrari-Building.jpeg" : {
+      "ft" : 16384,
+      "iS" : 82942,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Ferrari-Building.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ferrari-gran-turismo-front.webp" : {
+      "ft" : 8388608,
+      "iS" : 263254,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ferrari-gran-turismo-front.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/ferrari-hero-Image.webp" : {
+      "ft" : 8388608,
+      "iS" : 34200,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ferrari-hero-Image.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/Ferrari-logo-on-car.jpeg" : {
+      "ft" : 16384,
+      "iS" : 7139,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Ferrari-logo-on-car.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/ferrari-logo.png" : {
       "ft" : 32768,
       "iS" : 447676,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ferrari logo.png",
+      "oAP" : "\/deploy\/img\/ferrari-logo.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -154,23 +154,23 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ferrari purosangue.webp" : {
+    "\/deploy\/img\/ferrari-purosangue.webp" : {
       "ft" : 8388608,
       "iS" : 38110,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ferrari purosangue.webp",
+      "oAP" : "\/deploy\/img\/ferrari-purosangue.webp",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/Ferrari Racing Car.jpeg" : {
+    "\/deploy\/img\/Ferrari-Racing-Car.jpeg" : {
       "ft" : 16384,
       "iS" : 8639,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Ferrari Racing Car.jpg",
+      "oAP" : "\/deploy\/img\/Ferrari-Racing-Car.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -178,11 +178,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/ferrari Steering wheel.png" : {
+    "\/deploy\/img\/ferrari-Steering-wheel.png" : {
       "ft" : 32768,
       "iS" : 886755,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ferrari Steering wheel.png",
+      "oAP" : "\/deploy\/img\/ferrari-Steering-wheel.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -191,23 +191,23 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Ferrari Wheel.webp" : {
+    "\/deploy\/img\/Ferrari-Wheel.webp" : {
       "ft" : 8388608,
       "iS" : 123332,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Ferrari Wheel.webp",
+      "oAP" : "\/deploy\/img\/Ferrari-Wheel.webp",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/ferrrari Front.jpeg" : {
+    "\/deploy\/img\/ferrrari-Front.jpeg" : {
       "ft" : 16384,
       "iS" : 4937,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/ferrrari Front.jpg",
+      "oAP" : "\/deploy\/img\/ferrrari-Front.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -215,12 +215,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/inside the ferrari.jpeg" : {
+    "\/deploy\/img\/inside-the-ferrari.jpeg" : {
       "ft" : 16384,
       "iS" : 7045,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/inside the ferrari.jpg",
+      "oAP" : "\/deploy\/img\/inside-the-ferrari.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

@@ -1,3 +1,18 @@
 /* =============
     Typography
 ============= */
+
+.bottom{
+
+    .container{
+
+        @include md{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "content"
+            ;
+        }
+
+    }
+}
