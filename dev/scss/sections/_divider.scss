@@ -1,0 +1,33 @@
+/* =============
+    Typography
+============= */
+
+.divider{
+
+    .container{
+
+        @include md{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "content"
+            ;
+        }
+
+    }
+}
+
+.large-bottom{
+
+    .container{
+
+        @include lg{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "content"
+            ;
+        }
+
+    }
+}

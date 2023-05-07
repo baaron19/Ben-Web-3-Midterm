@@ -3,7 +3,7 @@
 ============= */
 
 .large-images{
-    width:auto;
+    width:100%;
 }
 
 
@@ -13,9 +13,20 @@
     grid-template-areas:
      ". content ."
     ;
+    
+    @include xl{
+        grid-template-columns: auto 1140px auto;
+    }
+
+    @include xxl{
+        grid-template-columns: auto 1320px auto;
+    }
+
+    .content{
+        grid-area:content;
+    }
+
 }
 
-.content{
-    grid-area:content;
-}
+
 
