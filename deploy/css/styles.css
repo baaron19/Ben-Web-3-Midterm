@@ -379,45 +379,72 @@ textarea {
     Footer
 ============= */
 /* =============
-    Typography
+    divider
 ============= */
 @media (min-width: 768px) {
+  .divider {
+    display: grid;
+    grid-template-columns: 15px 1fr 1fr 15px;
+    grid-template-areas: ". box-1 box-2 .";
+  }
+}
+@media (min-width: 1200px) {
+  .divider {
+    grid-template-columns: auto 570px 570px auto;
+  }
+}
+@media (min-width: 1400px) {
+  .divider {
+    grid-template-columns: auto 660px 660px auto;
+  }
+}
+@media (min-width: 1200px) {
   .divider .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "content";
+    grid-template-columns: 16px auto 16px;
   }
 }
-
-@media (min-width: 992px) {
-  .large-bottom .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "content";
+@media (min-width: 768px) {
+  .divider .container.box-1 {
+    grid-area: box-1;
   }
+}
+@media (min-width: 768px) {
+  .divider .container.box-2 {
+    grid-area: box-2;
+  }
+}
+.divider .container .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "h2 image" "a img";
+}
+.divider .container .content h2 {
+  grid-area: h2;
+}
+.divider .container .content a {
+  grid-area: a;
+}
+.divider .container .content img {
+  grid-area: img;
 }
 
 /* =============
     Typography
 ============= */
 @media (min-width: 768px) {
-  .gallery .container {
+  .gallery ul {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "content";
+    grid-template-columns: 50% auto;
   }
 }
-
 @media (min-width: 992px) {
-  .large-bottom .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "content";
+  .gallery ul {
+    grid-template-columns: 60% auto;
   }
 }
 
 /* =============
-    Typography
+    whats new
 ============= */
 @media (min-width: 768px) {
   .whatsnew .container {
@@ -436,26 +463,32 @@ textarea {
 }
 
 /* =============
-    Typography
+    Hero
 ============= */
 @media (min-width: 768px) {
-  .hero .container {
+  .hero .hero-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "content";
+    grid-template-columns: 40% 60%;
   }
 }
-
 @media (min-width: 992px) {
-  .large-bottom .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "content";
+  .hero .hero-content {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (min-width: 992px) {
+  .hero .hero-content .hero-content-left.container {
+    grid-template-columns: auto auto 16px;
+  }
+}
+@media (min-width: 992px) {
+  .hero .hero-content .hero-content-right.container {
+    grid-template-columns: 16px auto auto;
   }
 }
 
 /* =============
-    Typography
+    Search
 ============= */
 @media (min-width: 768px) {
   .search .container {

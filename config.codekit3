@@ -178,6 +178,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/ferrari-side.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/ferrari-side.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/ferrari-Steering-wheel.png" : {
       "ft" : 32768,
       "iS" : 886755,
@@ -273,6 +283,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/twitter-square-brands.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Wheel-side.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Wheel-side.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

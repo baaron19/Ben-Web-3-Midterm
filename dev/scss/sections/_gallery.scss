@@ -4,30 +4,16 @@
 
 .gallery{
 
-    .container{
+    ul{
 
         @include md{
-            display:grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas:
-            "content"
-            ;
+            display: grid;
+            grid-template-columns: 50% auto;
         }
-
-    }
-}
-
-.large-bottom{
-
-    .container{
 
         @include lg{
-            display:grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas:
-            "content"
-            ;
+            grid-template-columns: 60% auto;
         }
-
+        
     }
 }

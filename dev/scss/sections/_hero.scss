@@ -1,33 +1,49 @@
 /* =============
-    Typography
+    Hero
 ============= */
 
 .hero{
 
-    .container{
+    .hero-content{
 
         @include md{
             display:grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas:
-            "content"
-            ;
+            grid-template-columns: 40% 60%;
         }
-
-    }
-}
-
-.large-bottom{
-
-    .container{
 
         @include lg{
-            display:grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas:
-            "content"
-            ;
+            grid-template-columns: 50% 50%;
         }
 
+        .hero-content-left.container{
+         
+            @include lg {
+                grid-template-columns: auto auto 16px;
+            }
+
+        }
+
+        .hero-content-right.container{
+         
+            @include lg {
+                grid-template-columns: 16px auto auto;
+            }
+            
+        }
+
+
+
+
+
+
     }
+
+
+
+
+
+
+
+
 }
+
