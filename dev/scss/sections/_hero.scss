@@ -5,7 +5,8 @@
 .hero{
 
     .hero-content{
-
+         
+       
         @include md{
             display:grid;
             grid-template-columns: 40% 60%;
@@ -16,7 +17,9 @@
         }
 
         .hero-content-left.container{
-         
+            
+            background-color: #FEF200;
+
             @include lg {
                 grid-template-columns: auto auto 16px;
             }
@@ -24,7 +27,15 @@
         }
 
         .hero-content-right.container{
-         
+             
+            background-color: #009A4E; 
+            .content{
+                
+                padding-bottom: 14px;
+            
+            }
+            
+
             @include lg {
                 grid-template-columns: 16px auto auto;
             }

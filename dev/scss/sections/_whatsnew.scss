@@ -21,7 +21,13 @@
 
         ul.article-grid{   
       
-          @include md{
+            padding-left: 0;
+
+            li{
+                list-style: none;
+            }
+          
+            @include md{
               grid-area: articles;
               display: grid;
               grid-template-columns: repeat(4,1fr);
@@ -42,7 +48,7 @@
 
            li{
               .container{
-                  
+
                   @include xl{
                      grid-template-columns: 15px auto 15px;
                   }
@@ -77,6 +83,8 @@
                       grid-area: a5;
                     }
                 } 
+
+                
             }   
         }   
     }
