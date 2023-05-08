@@ -423,6 +423,9 @@ footer .content form button {
 footer li {
   list-style: none;
 }
+footer ul {
+  padding-left: 0;
+}
 
 /* =============
     divider
@@ -468,7 +471,7 @@ footer li {
 .divider .container .content {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-areas: "h2 image" "a img";
+  grid-template-areas: "h2 img" "a img";
 }
 .divider .container .content h2 {
   grid-area: h2;
@@ -480,7 +483,7 @@ footer li {
   grid-area: img;
 }
 .divider .content-spacing {
-  padding-top: 16px;
+  margin-top: 16px;
 }
 
 /* =============
