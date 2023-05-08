@@ -5,6 +5,11 @@
 .gallery{
 
     ul{
+        padding-left: 0;
+
+        li{
+            list-style: none;
+        }
 
         @include md{
             display: grid;
@@ -14,6 +19,6 @@
         @include lg{
             grid-template-columns: 60% auto;
         }
-        
+
     }
 }

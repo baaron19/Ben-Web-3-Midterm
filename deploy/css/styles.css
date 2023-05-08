@@ -375,6 +375,12 @@ textarea {
 /* =============
     Header
 ============= */
+.header {
+  background-color: #009A4E;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+
 /* =============
     Footer
 ============= */
@@ -405,6 +411,10 @@ textarea {
   footer .content .follow {
     grid-area: social;
   }
+}
+footer .content form button {
+  background-color: #009A4E;
+  color: black;
 }
 
 /* =============
@@ -460,6 +470,12 @@ textarea {
 /* =============
     Typography
 ============= */
+.gallery ul {
+  padding-left: 0;
+}
+.gallery ul li {
+  list-style: none;
+}
 @media (min-width: 768px) {
   .gallery ul {
     display: grid;
@@ -561,6 +577,12 @@ textarea {
 /* =============
     Search
 ============= */
+.search {
+  background-color: #C21715;
+  padding-left: 14px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
 @media (min-width: 768px) {
   .search .container {
     display: grid;
@@ -569,10 +591,11 @@ textarea {
   }
 }
 
-@media (min-width: 992px) {
-  .large-middle-text .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "content";
-  }
+.content form button {
+  padding-top: 6px;
+  padding-bottom: 6.5px;
+  padding-left: 11px;
+  padding-right: 11px;
+  background-color: #FEF200;
+  color: black;
 }

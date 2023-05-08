@@ -3,7 +3,11 @@
 ============= */
 
 .search{
-
+    background-color: #C21715;
+    padding-left: 14px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    
     .container{
 
         @include md{
@@ -17,17 +21,17 @@
     }
 }
 
-.large-middle-text{
 
-    .container{
+.content{
 
-        @include lg{
-            display:grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas:
-            "content"
-            ;
-        }
-
+    form{
+       button{
+          padding-top: 6px;
+          padding-bottom: 6.5px;
+          padding-left: 11px;
+          padding-right: 11px;
+          background-color: #FEF200;
+          color: black;
+       }
     }
-}
+ }
