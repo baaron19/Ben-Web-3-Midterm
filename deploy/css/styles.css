@@ -388,6 +388,9 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #C21715;
+}
 @media (min-width: 768px) {
   footer .content {
     display: grid;
@@ -548,25 +551,67 @@ footer ul {
     grid-template-columns: 15px auto 15px;
   }
 }
+.whats-new .whats-new-articles ul.article-grid li.article-1 {
+  margin-bottom: 16px;
+  background-color: #C21715;
+  padding-bottom: 16px;
+}
 @media (min-width: 768px) {
   .whats-new .whats-new-articles ul.article-grid li.article-1 {
     grid-area: a1;
+    margin-right: 16px;
   }
+}
+.whats-new .whats-new-articles ul.article-grid li.article-2 {
+  margin-bottom: 16px;
+  background-color: #C21715;
+  padding-bottom: 16px;
 }
 @media (min-width: 768px) {
   .whats-new .whats-new-articles ul.article-grid li.article-2 {
     grid-area: a2;
   }
 }
+@media (min-width: 1200px) {
+  .whats-new .whats-new-articles ul.article-grid li.article-2 {
+    margin-right: 16px;
+  }
+}
+.whats-new .whats-new-articles ul.article-grid li.article-3 {
+  margin-bottom: 16px;
+  background-color: #C21715;
+  padding-bottom: 16px;
+}
 @media (min-width: 768px) {
   .whats-new .whats-new-articles ul.article-grid li.article-3 {
     grid-area: a3;
+    margin-right: 16px;
   }
+}
+@media (min-width: 1200px) {
+  .whats-new .whats-new-articles ul.article-grid li.article-3 {
+    margin-right: 0;
+  }
+}
+.whats-new .whats-new-articles ul.article-grid li.article-4 {
+  margin-bottom: 16px;
+  background-color: #C21715;
+  padding-bottom: 16px;
 }
 @media (min-width: 768px) {
   .whats-new .whats-new-articles ul.article-grid li.article-4 {
     grid-area: a4;
   }
+}
+@media (min-width: 1200px) {
+  .whats-new .whats-new-articles ul.article-grid li.article-4 {
+    margin-right: 16px;
+  }
+}
+.whats-new .whats-new-articles ul.article-grid li.article-5 {
+  margin-bottom: 16px;
+  background-color: #C21715;
+  padding-bottom: 16px;
 }
 @media (min-width: 768px) {
   .whats-new .whats-new-articles ul.article-grid li.article-5 {

@@ -57,18 +57,37 @@
                 &.article-1{
                   @include md{
                      grid-area: a1;
+                     margin-right: 16px;
                   }
+                  margin-bottom: 16px;
+                  background-color: #C21715;
+                  padding-bottom: 16px;
                 }  
 
                &.article-2{
                    @include md{
                      grid-area: a2;
                     }
+                    margin-bottom: 16px;
+                    background-color: #C21715;
+                    padding-bottom: 16px;
+
+                    @include xl{
+                        margin-right: 16px;
+                    }
                 }  
 
                &.article-3{
                    @include md{
                       grid-area: a3;
+                      margin-right: 16px;
+                    }
+                    margin-bottom: 16px;
+                    background-color: #C21715;
+                    padding-bottom: 16px;
+                    
+                    @include xl{
+                        margin-right: 0;
                     }
                 }  
 
@@ -76,15 +95,26 @@
                    @include md{
                       grid-area: a4;
                     }
+                    margin-bottom: 16px;
+                    background-color: #C21715;
+                    padding-bottom: 16px;
+
+                    @include xl{
+                        margin-right: 16px;
+                    }
                 }  
 
                &.article-5{
                    @include md{
                       grid-area: a5;
                     }
+                    margin-bottom: 16px;
+                    background-color: #C21715;
+                    padding-bottom: 16px;
                 } 
 
                 
+
             }   
         }   
     }
