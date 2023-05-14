@@ -106,6 +106,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Ferrari-Building.jpg" : {
+      "ft" : 16384,
+      "iS" : 16554,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Ferrari-Building.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/ferrari-gran-turismo-front.webp" : {
       "ft" : 8388608,
       "iS" : 263254,
@@ -178,6 +191,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Ferrari-retro.webp" : {
+      "ft" : 8388608,
+      "iS" : 41050,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Ferrari-retro.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/deploy\/img\/ferrari-side.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -194,8 +218,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/ferrari-Steering-wheel.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
