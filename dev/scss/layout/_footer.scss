@@ -22,16 +22,17 @@ footer{
       }
 
       .locations{
-
+         padding-top: 20px;
          @include md{
             grid-area: locations;
+            padding-bottom: 40px;
          }
       }
 
       .newsletter{
-
         @include md{
            grid-area: newsletter;
+           padding-top: 20px;
         }
      }
 
@@ -39,6 +40,12 @@ footer{
 
         @include md{
            grid-area: social;
+           padding-top: 20px;
+        }
+        ul{
+            li{
+                display: inline-block;
+            }
         }
      }
 

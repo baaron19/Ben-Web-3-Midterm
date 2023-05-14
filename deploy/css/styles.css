@@ -324,6 +324,7 @@ template {
 ============= */
 .large-images {
   width: 100%;
+  display: block;
 }
 
 .container {
@@ -404,20 +405,29 @@ footer {
     grid-template-areas: "locations newsletter social";
   }
 }
+footer .content .locations {
+  padding-top: 20px;
+}
 @media (min-width: 768px) {
   footer .content .locations {
     grid-area: locations;
+    padding-bottom: 40px;
   }
 }
 @media (min-width: 768px) {
   footer .content .newsletter {
     grid-area: newsletter;
+    padding-top: 20px;
   }
 }
 @media (min-width: 768px) {
   footer .content .follow {
     grid-area: social;
+    padding-top: 20px;
   }
+}
+footer .content .follow ul li {
+  display: inline-block;
 }
 footer .content form button {
   background-color: #009A4E;
@@ -456,14 +466,17 @@ footer ul {
   }
 }
 .divider .container.box-1 {
+  padding-bottom: 24px;
   background-color: #C21715;
 }
 @media (min-width: 768px) {
   .divider .container.box-1 {
     grid-area: box-1;
+    margin-right: 16px;
   }
 }
 .divider .container.box-2 {
+  padding-bottom: 24px;
   background-color: #C21715;
 }
 @media (min-width: 768px) {
@@ -483,6 +496,7 @@ footer ul {
   grid-area: a;
 }
 .divider .container .content img {
+  padding-left: 50px;
   grid-area: img;
 }
 .divider .content-spacing {
