@@ -62,15 +62,28 @@
 
             h2{
                 grid-area: h2;
+                align-self: center;
+                font-size: 22px;
             }
 
             a{
                 grid-area: a;
+                color: black;
+                background-color: $light-green;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                align-self: end;
+                text-decoration: none;
+                text-align: center;
+                width: 100px;
             }
 
             img{
-                padding-left: 50px;
                 grid-area: img;
+                justify-self: end;
+
             }
 
             
