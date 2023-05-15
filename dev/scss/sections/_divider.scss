@@ -24,7 +24,9 @@
     
     .container{
         
-        
+        margin-top: 10px;
+        margin-bottom: 16px;
+
         @include xl{
             grid-template-columns: 16px auto 16px;
         }
@@ -70,12 +72,15 @@
                 padding-left: 50px;
                 grid-area: img;
             }
+
+            
         }
     }
 
     .content-spacing{
         margin-top: 16px;
     }
+    
     
 
 }
