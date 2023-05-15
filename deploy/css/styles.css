@@ -695,7 +695,7 @@ footer .locations a, footer .follow a {
 .whats-new .whats-new-articles ul.article-grid li.article-1 {
   margin-bottom: 16px;
   background-color: #C21715;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
 }
 @media (min-width: 768px) {
   .whats-new .whats-new-articles ul.article-grid li.article-1 {
@@ -850,7 +850,7 @@ footer .locations a, footer .follow a {
   padding: 25px 0 25px 0;
   background-color: #C21715;
   padding-left: 14px;
-  padding-bottom: 16px;
+  padding-bottom: 32px;
   padding-top: 16px;
 }
 @media (min-width: 768px) {
