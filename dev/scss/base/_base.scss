@@ -8,6 +8,10 @@
 }
 
 
+body{
+    background-color: black;
+}
+
 .container{
     display:grid;
     grid-template-columns: 16px auto 16px;
@@ -26,6 +30,8 @@
     .content{
         grid-area:content;
     }
+
+    
 
 }
 

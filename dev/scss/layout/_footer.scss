@@ -6,6 +6,8 @@ footer{
     background-color: #C21715;
     
    .content{
+        
+        color: white; 
 
        @include md{
          display:grid;

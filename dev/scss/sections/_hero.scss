@@ -4,9 +4,14 @@
 
 .hero{
 
+    img{
+        display: block;
+    }
+
     .hero-content{
          
-       
+        color: $crimson;
+
         @include md{
             display:grid;
             grid-template-columns: 40% 60%;
@@ -23,7 +28,18 @@
             @include lg {
                 grid-template-columns: auto auto 16px;
             }
+            .content{
+                padding-bottom: 14px;
+            }
+            
+            p{
+                margin-bottom: 10px;
+            }
 
+            h2{
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
         }
 
         .hero-content-right.container{
@@ -40,10 +56,43 @@
                 grid-template-columns: 16px auto auto;
             }
             
+            p{
+                margin-bottom: 10px;
+            }
+
+            h2{
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
         }
 
 
+       .content{
+          
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-areas: 
+          "div link";
 
+          
+            a{
+              grid-area: link;
+              justify-self: end;
+              align-self: center;
+
+              span{
+                display: none;
+
+                @include lg{
+                    display: inline-block;
+                }
+              }
+            
+            }
+
+
+
+       }  
 
 
 

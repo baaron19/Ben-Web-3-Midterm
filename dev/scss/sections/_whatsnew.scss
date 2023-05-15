@@ -5,7 +5,7 @@
 .whats-new{
     
     .whats-new-articles{
-
+         
         @include md{
            display: grid;
            grid-template-columns: 15px auto 15px;
@@ -13,7 +13,16 @@
             ". articles .";
         }
 
-        
+        a{
+            color: black;
+            background-color: $light-green;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            align-self: center;
+            
+        }
 
         @include xl{
           grid-template-columns: auto 1140px auto;
@@ -117,5 +126,9 @@
 
             }   
         }   
+    }
+
+    .whats-new-title{
+        color: $white;
     }
 }

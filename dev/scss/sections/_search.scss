@@ -3,6 +3,9 @@
 ============= */
 
 .search{
+    
+    padding: 25px 0 25px 0;
+    
     background-color: #C21715;
     padding-left: 14px;
     padding-bottom: 16px;
@@ -19,19 +22,50 @@
         }
 
     }
+
+
+
+  .content{
+    
+      form{
+       
+           display: flex;
+
+           input{
+              font-size: 16px;
+              width: 100%;
+              
+              
+              border: none;
+              border-bottom: 2px solid $white;
+              background-color: #C21715;
+        
+              @include md{
+                 font-size: 30px;
+                }
+
+              @include lg{
+                 font-size: 35px;
+              }  
+
+              
+            }
+
+            ::placeholder { /* Microsoft Edge*/
+               color: $white;
+            }
+       
+          button{
+             margin-left: 4px;
+             padding-top: 7.5px;
+             padding-bottom: 7.5px;
+             padding-left: 12.5px;
+             padding-right: 12.5px;
+             background-color: #FEF200;
+             border: none;
+             border-radius: 5px;
+          }
+       } 
+   }
+
 }
-
-
-.content{
-
-    form{
-       button{
-          padding-top: 6px;
-          padding-bottom: 6.5px;
-          padding-left: 11px;
-          padding-right: 11px;
-          background-color: #FEF200;
-          color: black;
-       }
-    }
- }
