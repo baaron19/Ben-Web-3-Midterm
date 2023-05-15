@@ -29,32 +29,79 @@ footer{
          @include md{
             grid-area: locations;
             padding-bottom: 40px;
+
          }
+
+
       }
 
       .newsletter{
-        @include md{
-           grid-area: newsletter;
-           padding-top: 20px;
-           margin-left: 16px;
+         @include md{
+             grid-area: newsletter;
+             padding-top: 20px;
+             margin-left: 16px;  
+          }
+       
+         form{
+             display: flex;
+             flex-flow: wrap;
+             justify-content: end;
+
+             input{
+                 width: 100%;
+                 background-color: white;
+                 color: #C21715;
+                 padding: 15px 10px 15px 10px;
+                 margin: 20px 0 20px 0;
+                 border: none;
+               }
+            }
+       
+            ::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: #C21715;
+                opacity: 1;
+            }
+
+            button{
+                color: black;
+                background-color: #009A4E;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                text-align: center;
+                border: none;
+            }
         }
-     }
+
 
      .follow{
 
-        @include md{
-           grid-area: social;
-           padding-top: 20px;
-           margin-left: 16px;
-        }
+          @include md{
+             grid-area: social;
+              padding-top: 20px;
+              margin-left: 16px;
+           }
 
-        @include lg{
-           align-items: right;
-        }
+            @include lg{
+               text-align: right;
+            }
 
-        ul{
-            li{
-                display: inline-block;
+            ul{
+           
+               li{
+                   display: inline-block;
+
+            
+                   color: white;
+
+                   
+                }
+            }
+
+            img{
+                font-size: 30px;
+                padding-right: 16px;
             }
         }
      }
@@ -77,5 +124,35 @@ footer{
 
    ul{
     padding-left: 0;
+   }
+
+   h4{
+    font-size: 20px;
+   }
+
+   h5{
+     font-size: 16px;
+     margin-bottom: 15px;
+   }
+
+   .locations, .follow{
+        list-style: none;
+        padding: 0;
+
+        img{
+            padding-right: 10px;
+        }
+
+        h5{
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        p{
+            font-size: 12px;
+            margin-bottom: 15px;
+            // display: flex;
+
+        }
    }
 }

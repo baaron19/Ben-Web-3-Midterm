@@ -202,6 +202,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/deploy\/img\/ferrari-side.png" : {
+      "ft" : 32768,
+      "iS" : 192841,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/ferrari-side.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/ferrari-side.svg" : {
       "ft" : 2097152,
       "miP" : 0,

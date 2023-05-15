@@ -429,6 +429,32 @@ footer .content .locations {
     margin-left: 16px;
   }
 }
+footer .content .newsletter form {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: end;
+}
+footer .content .newsletter form input {
+  width: 100%;
+  background-color: white;
+  color: #C21715;
+  padding: 15px 10px 15px 10px;
+  margin: 20px 0 20px 0;
+}
+footer .content .newsletter ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #C21715;
+  opacity: 1;
+}
+footer .content .newsletter button {
+  color: black;
+  background-color: #009A4E;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+  border: none;
+}
 @media (min-width: 768px) {
   footer .content .follow {
     grid-area: social;
@@ -438,11 +464,16 @@ footer .content .locations {
 }
 @media (min-width: 992px) {
   footer .content .follow {
-    align-items: right;
+    text-align: right;
   }
 }
 footer .content .follow ul li {
   display: inline-block;
+  color: white;
+}
+footer .content .follow ul li img {
+  font-size: 30px;
+  padding-right: 15px;
 }
 footer .content form button {
   background-color: #009A4E;
@@ -453,6 +484,28 @@ footer li {
 }
 footer ul {
   padding-left: 0;
+}
+footer h4 {
+  font-size: 20px;
+}
+footer h5 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+footer .locations, footer .follow {
+  list-style: none;
+  padding: 0;
+}
+footer .locations img, footer .follow img {
+  padding-right: 10px;
+}
+footer .locations h5, footer .follow h5 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+footer .locations p, footer .follow p {
+  font-size: 12px;
+  margin-bottom: 15px;
 }
 
 /* =============
