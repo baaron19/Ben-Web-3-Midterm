@@ -94,8 +94,12 @@ footer{
                li{
                    display: inline-block;
 
-            
+                   padding-right: 8px;
                    color: white;
+                   
+                   @include lg{
+                    align-content: right;
+                   }
 
                    
                 }

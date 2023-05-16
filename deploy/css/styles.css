@@ -474,7 +474,13 @@ footer .content .newsletter button {
 }
 footer .content .follow ul li {
   display: inline-block;
+  padding-right: 8px;
   color: white;
+}
+@media (min-width: 992px) {
+  footer .content .follow ul li {
+    align-content: right;
+  }
 }
 footer .content .follow img {
   font-size: 30px;
@@ -592,6 +598,10 @@ footer .locations a, footer .follow a {
   grid-area: img;
   justify-self: end;
 }
+.divider .container .content span {
+  color: #C21715;
+  text-decoration: none;
+}
 .divider .content-spacing {
   margin-top: 16px;
 }
@@ -686,6 +696,13 @@ footer .locations a, footer .follow a {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "a1 a1 a2 a2 a3 a3" ". a4 a4 a5 a5 .";
   }
+}
+.whats-new .whats-new-articles ul.article-grid li h3 {
+  font-size: 27px;
+}
+.whats-new .whats-new-articles ul.article-grid li p {
+  font-size: 16px;
+  padding-bottom: 8px;
 }
 @media (min-width: 1200px) {
   .whats-new .whats-new-articles ul.article-grid li .container {
